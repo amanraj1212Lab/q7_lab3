@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX_INDEX</title>
+    <style>
+img{
+        height: 28px;
+        width: 28px;
+        size: 2px;
+}
+.icon{
+    font-size: 28px;
+}
+.icon img{
+    float: left;
+}
+        .icon pre{
+            width: 734px;
+height: 24px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+display: flex;
+align-items: center;
+flex: none;
+order: 1;
+flex-grow: 1;
+        }
+    .personal{
+        font-size: 30px;
+    }
+#calltoaction-form #callocation-form1 {
+  background: #f2f2f2;
+  padding-bottom: 10px;
+  width: 800px;
+  position: right;
+  bottom: 0;
+  overflow: hidden;
+  display: inline;
+}
+
+.row2 {
+  float: left;
+  width: 50%;
+}
+label {
+  display: grid;
+  margin-bottom: .25em;
+}
+input {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 10px;
+width: 350px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #B3B8C2;
+border-radius: 4px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}  
+.row2{
+position:relative;
+  float: left;
+  
+}
+.open-button button {
+  border: none;
+  background: transparent;
+}
+#calltoaction-form2 .open-button {
+  position:relative;
+  top: -28px;
+  right: 8px;
+  width: 25px;
+  height: 10px;
+  background: white;
+  pointer-events: none;
+  float: right;
+  margin-right: 53%;
+}
+.open-button {
+  position:relative;
+  top: -28px;
+  right: 8px;
+  width: 25px;
+  height: 10px;
+  background: white;
+  pointer-events: none;
+  float: right;
+  margin-right: 53%;
+}
+.open-button1{
+position:relative;
+top: -28px;
+right: 8px;
+width: 25px;
+background: white;
+pointer-events: none;
+float: right;
+margin-right: 53%;
+}
+ .row5 input{
+    position:relative;
+    top: 18px;
+    border-style:dashed;
+background: #FFFFFF;
+}
+.open-button2{
+    position:relative;
+  top: -28px;
+  right: 8px;
+  width: 25px;
+  height: 10px;
+  background: white;
+  pointer-events: none;
+  float: right;
+  margin-right: 53%;
+}
+.button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 175px;
+height: 40px;
+right: 450px;
+bottom: 24px;
+background: #2664EC;
+border-radius: 8px;
+}
+.cancel{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 8px;
+gap: 10px;
+
+position: absolute;
+width: 175px;
+height: 40px;
+right: 645px;
+bottom: 24px;
+background: #FFFFFF;
+border: 1px solid #2664EC;
+border-radius: 8px;
+}
+.personal{
+color: #2664EC;
+}
+</style>
+</head>
+
+<body>
+    <div class="icon"> <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtr41lszJq-B0DeDpymJI6FnmA130YVh8YZSjv1B-sl5D_KwxjRGAmOVAIylDAb2my6F0&usqp=CAU"
+            alt="logo"><pre>  Employee Details</pre></div>
+ 
+ <div class="personal">
+    <pre>Personal   Contact   Qualification   Bank   Employment<hr></pre>
+ </div>
+
+ <div id="calltoaction-form" class="teaser-form">
+    <form id="contact_form" action="_contact-us.php" method="post">
+      <div class="row2">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter Employee Name">
+      </div>
+
+      <div class="row2">
+        <label for="Employment ID">Employment ID</label>
+        <input id="Employment ID" name="Employment ID" type="text" placeholder="Enter Employee Employment ID">
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="calltoaction-form1" class="teaser-form">
+        <form id="contact_form1" action="_contact-us.php" method="post">
+          <div class="row2">
+            <label for="DOB">Date Of Birth</label>
+            <input id="DOB" class="sd" name="Date of Birth" type ="text"   placeholder="DD/MM/YYYY"  >
+            <span class="open-button">
+                <button type="button">📅</button>
+              </span>
+            </div>
+          </div>
+    
+          <div class="row2">
+            <label for="MARRIAGE STATUS">Marriage Status</label>
+            <input id="MARRIAGE STATUS" name="Marriage Status" type="text" placeholder="Select Marriage Status">
+            <span class="open-button2">
+                <button type="button">🞃</button>
+              </span>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!---->
+          <div id="calltoaction-form2" class="teaser-form">
+            <form id="contact_form2" action="_contact-us.php" method="post">
+              <div class="row2">
+                <label for="DOJ">Date Of Joining*</label>
+                <input id="DOJ" name="Date Of Joining" type="text" placeholder="DD/MM/YYYY">
+                <span class="open-button">
+                    <button type="button">📅</button>
+                  </span>
+              </div>
+        
+              <div class="row2">
+                <label for="DOS">Date of Separation</label>
+                <input id="DOS" name="Date of Separation" type="text" placeholder="DD/MM/YYYY">
+                <span class="open-button">
+                    <button type="button">📅</button>
+                  </span>
+              </div>
+      <!---->
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+      <div id="calltoaction-form3" class="teaser-form">
+        <form id="contact_form3" action="_contact-us.php" method="post">
+          <div class="row2">
+            <label for="EIFT">Employee ID Proof Type</label>
+            <input id="EIFT" name="Employee ID Proof Type" type="text" placeholder="ID Proof Type">
+            <span class="open-button1">
+                <button type="button">🞃</button>
+              </span>
+          </div>
+    
+          <div class="row5">
+            <label class="row2" for="upload"></label>
+            <input id="upload" class="unique" name="Date of Separation" type="text"  placeholder="⬆️ Upload ID or Drop Files">
+          </div>
+          <!---->
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div id="calltoaction-form4" class="teaser-form">
+            <form id="contact_form4" action="_contact-us.php" method="post">
+              <div class="row2">
+                <label for="IDN">ID Number</label>
+                <input id="IDN" name="ID Number" type="text" placeholder="Enter ID Number">
+              </div>
+        
+              <div class="row2">
+                <label for="MN">Mobile Number</label>
+                <input id="MN" name="Date of Separation" type="text" placeholder="🇮🇳 🞃 | Enter Mobile Number">
+              </div>
+              <!---->
+    </form>
+    <a class="button"></a>
+<button class="button">Save</button>
+<a class="cancel"></a>
+<button class="cancel">cancel</button>
+  </div>
+ 
+</body>
+
+</html>
